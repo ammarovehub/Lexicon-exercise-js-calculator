@@ -21,6 +21,14 @@ else if (operator === "-") {
     result = fNumber - sNumber;
     alert(`The result of ${fNumber} - ${sNumber} is ${result}`)
 }
+else if (operator === "*") {
+    result = fNumber * sNumber;
+    alert(`The result of ${fNumber} * ${sNumber} is ${result}`)
+}
+else if (operator === "/") {
+    result = fNumber / sNumber;
+    alert(`The result of ${fNumber} / ${sNumber} is ${result}`)
+}
 
 else if (
     alert("Please use the correct operator.")
