@@ -19,19 +19,19 @@ if (operator === "+") {
 }
 else if (operator === "-") {
     result = fNumber - sNumber;
-    alert(`The result of ${fNumber} - ${sNumber} is ${result}`)
+    alert(`The result of ${fNumber} - ${sNumber} is ${result}`);
 }
 else if (operator === "*") {
     result = fNumber * sNumber;
-    alert(`The result of ${fNumber} * ${sNumber} is ${result}`)
+    alert(`The result of ${fNumber} * ${sNumber} is ${result}`);
 }
 else if (operator === "/") {
+    if (sNumber === 0){
+        alert("error division by zero is undfined.")
+    } else {
     result = fNumber / sNumber;
-    alert(`The result of ${fNumber} / ${sNumber} is ${result}`)
+    alert(`The result of ${fNumber} / ${sNumber} is ${result}`);}
+     } else {
+    alert("Please use the correct operator.");
 }
-
-else if (
-    alert("Please use the correct operator.")
-)
-
-alert("Take care")
+alert("Take care");
